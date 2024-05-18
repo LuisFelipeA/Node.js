@@ -15,3 +15,7 @@ Quando executar 'npm start', ira executar o comando 'node teste.js', que executa
 - criar git ignore (para não salvar pasta '/node_modules'(dependencias))
 - npm install (verifica o 'package.json' e instala as dependencias)
 
+- Criar 'app.js' (ver exemplo)
+- npm app.js (inicia servidor)
+
+Quando fizer alterações no 'app.js' tem que parar servidor e rodar novamente
