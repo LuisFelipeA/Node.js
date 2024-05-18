@@ -1,0 +1,17 @@
+No terminal:
+- npm init
+- colocar nome
+- Preencher informações
+- Vai gerar o arquivo 'package.json'
+
+Nesse arquivo, posso criar comandos no campo script:
+  "scripts": {
+    "start": "node teste.js"
+  },
+
+Quando executar 'npm start', ira executar o comando 'node teste.js', que executa o conteudo de 'teste.js'
+
+- npm install express --save (coloca no 'package.json' a dependencia express e instala dependencias)
+- criar git ignore (para não salvar pasta '/node_modules'(dependencias))
+- npm install (verifica o 'package.json' e instala as dependencias)
+
