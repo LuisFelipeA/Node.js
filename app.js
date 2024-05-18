@@ -9,10 +9,10 @@ app.get("/", function(req, res){
     res.send("Hello World")
 });
 
-app.get("/user", function(req, res){
+app.get("/user/:nome/:idade", function(req, res){
     res.send({
-        nome:"Luis",
-        idade:26
+        nome: req.params.nome,
+        idade: req.params.idade
     })
 });
 
