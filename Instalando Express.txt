@@ -19,3 +19,6 @@ Quando executar 'npm start', ira executar o comando 'node teste.js', que executa
 - npm app.js (inicia servidor)
 
 Quando fizer alterações no 'app.js' tem que parar servidor e rodar novamente
+
+- npm install nodemon --savedev (atualiza o projeto automaticamente)
+- npx nodemon app.js (roda script pelo nodemon)

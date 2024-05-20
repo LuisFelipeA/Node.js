@@ -6,7 +6,7 @@ const app = express();
 // 1º Parametro - Rota
 // 2º Parametro - Função (req- requisicao, res - resposta) 
 app.get("/", function(req, res){
-    res.send("Hello World")
+    res.send("Hello World teste")
 });
 
 app.get("/user/:nome/:idade", function(req, res){
