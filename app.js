@@ -1,5 +1,5 @@
 // Busca na pasta 'node_modules' a pasta express
-const express = require("express");
+import express from "express";
 
 const app = express();
 
