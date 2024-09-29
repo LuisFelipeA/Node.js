@@ -4,6 +4,8 @@ import { productRouter } from './modules/products/product.controller.js';
 
 const app = express();
 
+app.use(express.json()); // converte o body
+
 app.use(userRouter);
 
 app.use(productRouter);
